@@ -246,6 +246,23 @@ width: 280px;
   margin-top: 0px;
   margin-bottom: 120px;
 }
+
+
+
+.our-portfolio1 {
+padding-top: 60px;
+    padding-left: 90px;
+    padding-bottom: 70px;
+    margin-top: 0px;
+    margin-bottom: 120px;
+    flex-direction: revert;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    display: -webkit-inline-box;
+}
 .our-portfolio .item:hover .hidden-content {
   top: -100px;
   opacity: 1;
@@ -353,6 +370,12 @@ width: 280px;
   background-color:#5a6e7f;
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
+}
+.info_section1 {
+  background-color:#5a6e7f;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 50px;
 }
 
 .info_logo-box {
