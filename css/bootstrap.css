@@ -4558,12 +4558,12 @@ input[type="button"].btn-block {
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
-  min-width: 0;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  align-items: center;
 }
 
 .card > hr {
@@ -4589,6 +4589,7 @@ input[type="button"].btn-block {
 
 .card-title {
   margin-bottom: 0.75rem;
+  font-size: 18px;
 }
 
 .card-subtitle {
@@ -4655,14 +4656,16 @@ input[type="button"].btn-block {
 }
 
 .card-img {
-  width: 100%;
+  width: 40%;
   border-radius: calc(0.25rem - 1px);
+  
 }
 
 .card-img-top {
-  width: 100%;
+  width: 40%;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
+  margin-top: 15px;
 }
 
 .card-img-bottom {
@@ -4705,12 +4708,14 @@ input[type="button"].btn-block {
 .card-group {
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .card-group > .card {
   margin-bottom: 15px;
+  
 }
 
 @media (min-width: 576px) {
