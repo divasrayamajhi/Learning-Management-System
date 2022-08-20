@@ -240,8 +240,9 @@ width: 280px;
 
 
 .our-portfolio {
-  padding-top: 100px;
+  padding-top: 60px;
   padding-left: 90px;
+  padding-bottom: 70px;
   margin-top: 0px;
   margin-bottom: 120px;
 }
@@ -313,7 +314,7 @@ width: 280px;
 
 .goal_section {
   background: url("file:///D:/project%20learning%20management/fanadesh-html/images/managegoal-test-prep-light-new.svg");
-  color: #000000;
+  color: #3c4852;
   font-family: 'Poppins', sans-serif;
   height: 24vh;
 }
