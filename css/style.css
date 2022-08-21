@@ -38,6 +38,30 @@ body {
   width: 280px;
 }
 
+.call_to-btn1 {
+display: inline-grid;
+/* display: table-cell; */
+vertical-align: middle;
+padding: 15px 45px;
+margin-right: 10px;
+margin-top: 10px;
+border-radius: 10px;
+font-size: 18px;
+background-color: #08bd80;
+color: #ffffff;
+font-weight: 600;
+transition: all 0.3s ease 0s;
+text-align: center;
+width: 280px;
+height: 100px;
+justify-items: center;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+
+
+
 .hero_section .call_to-btn {}
 
 .call_to-btn img {
