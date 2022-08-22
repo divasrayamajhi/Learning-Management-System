@@ -92,14 +92,13 @@
    <section class="goal_section layout_padding-top">
     <div class="goal_logo-box">
       <h2>
-        E-learning - Concept and Charcteristics
+        E-learning - Concept & Charcteristics
       </h2>
     </div>
   </section>
 
 
 <div id="portfolio" class="our-portfolio1 section">
-    
 <style>
     .tab {
       float: left;
@@ -137,7 +136,7 @@
     /* Style the tab content */
     .tabcontent {
       float: left;
-      padding: 0px 12px;
+      padding: 0px 0px;
       border: 1px solid #ccc;
       width: 70%;
       border-left: none;
@@ -175,6 +174,8 @@
           
           .tablink:hover {
             background-color: #777;
+            color: black;
+            
           }
           
           /* Style the tab content (and add height:100% for full page content) */
@@ -186,17 +187,16 @@
           }
           
           #Home {background-color: white;}
-          #News {background-color: white;}
-          #Contact {background-color: white;}
+          #News {background-color: white; }
+          #Contact {background-color: white; }
           #About {background-color: white;}
           </style>
-          </head>
-          <body>
           
-          <button class="tablink" onclick="openPage('Home', this, 'red')">Docs</button>
-          <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">Assessment</button>
-          <button class="tablink" onclick="openPage('Contact', this, 'blue')">Tutorials</button>
-          <button class="tablink" onclick="openPage('About', this, 'orange')">Offline Notes</button>
+          
+          <button class="tablink" onclick="openPage('Home', this, '')" id="defaultOpen" >Docs</button>
+          <button class="tablink" onclick="openPage('News', this, '')" >Assessment</button>
+          <button class="tablink" onclick="openPage('Contact', this, '')">Tutorials</button>
+          <button class="tablink" onclick="openPage('About', this, '')">Offline Notes</button>
           
           <div id="Home" class="tabcontent1">
             <h3>Home</h3>
@@ -218,24 +218,7 @@
             <p>Who we are and what we do.</p>
           </div>
           
-          <script>
-          function openPage(pageName,elmnt,color) {
-            var i, tabcontent1, tablinks;
-            tabcontent1 = document.getElementsByClassName("tabcontent1");
-            for (i = 0; i < tabcontent.length; i++) {
-              tabcontent[i].style.display = "none";
-            }
-            tablinks = document.getElementsByClassName("tablink");
-            for (i = 0; i < tablinks.length; i++) {
-              tablinks[i].style.backgroundColor = "";
-            }
-            document.getElementById(pageName).style.display = "block";
-            elmnt.style.backgroundColor = color;
-          }
           
-          // Get the element with id="defaultOpen" and click on it
-          document.getElementById("defaultOpen").click();
-          </script>
     </div>
     
     <div id="char" class="tabcontent">
@@ -287,6 +270,24 @@
     document.getElementById("defaultOpen").click();
     </script>
        
+       <script>
+        function openPage(pageName,elmnt,color) {
+          var i, tabcontent1, tablinks;
+          tabcontent1 = document.getElementsByClassName("tabcontent1");
+          for (i = 0; i < tabcontent1.length; i++) {
+            tabcontent1[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablink");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].style.backgroundColor = "";
+          }
+          document.getElementById(pageName).style.display = "block";
+          elmnt.style.backgroundColor = color;
+        }
+        
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+        </script>
     
 
 
