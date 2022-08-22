@@ -143,9 +143,7 @@
       height: auto;
     }
     </style>
-    </head>
-    <body>
-   
+
     
     <div class="tab">
       <button class="tablinks" onclick="openCity(event, 'def')" id="defaultOpen">Definition of E-learning</button>
@@ -159,6 +157,30 @@
     </div>
     
     <div id="def" class="tabcontent">
+      <button class="tablink" onclick="openPage('docs', this,'')" id="defaultOpen">Docs</button>
+      <button class="tablink" onclick="openPage('ass', this, '')" >Assessment</button>
+      <button class="tablink" onclick="openPage('tut', this, '')">Tutorials</button>
+      <button class="tablink" onclick="openPage('off', this, '')">Offline Notes</button>
+      
+      <div id="docs" class="tabcontent1">
+        <h3>Home</h3>
+        <p>Home is where the heart is..</p>
+      </div>
+      
+      <div id="ass" class="tabcontent1">
+        <h3>News</h3>
+        <p>Some news this fine day!</p> 
+      </div>
+      
+      <div id="tut" class="tabcontent1">
+        <h3>Contact</h3>
+        <p>Get in touch, or swing by for a cup of coffee.</p>
+      </div>
+      
+      <div id="off" class="tabcontent1">
+        <h3>About</h3>
+        <p>Who we are and what we do.</p>
+      </div>
         <style>
         .tablink {
             background-color: #08bd80;
@@ -186,37 +208,13 @@
             height: 100%;
           }
           
-          #Home {background-color: white;}
-          #News {background-color: white; }
-          #Contact {background-color: white; }
-          #About {background-color: white;}
+          #docs{background-color: white;}
+          #ass {background-color: white; }
+          #tut {background-color: white; }
+          #off {background-color: white; }
           </style>
           
           
-          <button class="tablink" onclick="openPage('Home', this, '')" id="defaultOpen" >Docs</button>
-          <button class="tablink" onclick="openPage('News', this, '')" >Assessment</button>
-          <button class="tablink" onclick="openPage('Contact', this, '')">Tutorials</button>
-          <button class="tablink" onclick="openPage('About', this, '')">Offline Notes</button>
-          
-          <div id="Home" class="tabcontent1">
-            <h3>Home</h3>
-            <p>Home is where the heart is..</p>
-          </div>
-          
-          <div id="News" class="tabcontent1">
-            <h3>News</h3>
-            <p>Some news this fine day!</p> 
-          </div>
-          
-          <div id="Contact" class="tabcontent1">
-            <h3>Contact</h3>
-            <p>Get in touch, or swing by for a cup of coffee.</p>
-          </div>
-          
-          <div id="About" class="tabcontent1">
-            <h3>About</h3>
-            <p>Who we are and what we do.</p>
-          </div>
           
           
     </div>
@@ -268,10 +266,10 @@
     
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
-    </script>
-       
-       <script>
-        function openPage(pageName,elmnt,color) {
+
+
+
+    function openPage(pageName,elmnt,color) {
           var i, tabcontent1, tablinks;
           tabcontent1 = document.getElementsByClassName("tabcontent1");
           for (i = 0; i < tabcontent1.length; i++) {
@@ -287,7 +285,9 @@
         
         // Get the element with id="defaultOpen" and click on it
         document.getElementById("defaultOpen").click();
-        </script>
+    </script>
+       
+      
     
 
 
