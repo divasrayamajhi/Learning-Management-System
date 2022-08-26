@@ -40,7 +40,6 @@ body {
 
 .call_to-btn1 {
 display: inline-grid;
-/* display: table-cell; */
 vertical-align: middle;
 padding: 15px 45px;
 margin-right: 10px;
@@ -74,6 +73,25 @@ align-content: center;
 }
 
 .call_to-btn:hover,
+.btn_on-hover:hover {
+  -webkit-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.7);
+  transform: translateY(-7px);
+}
+
+.hero_section .call_to-btn1 {}
+
+.call_to-btn1 img {
+  width: 18px;
+  margin-left: 10px;
+}
+
+.btn_on-hover {
+  transition: all 0.3s ease 0s;
+}
+
+.call_to-btn1:hover,
 .btn_on-hover:hover {
   -webkit-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.7);
