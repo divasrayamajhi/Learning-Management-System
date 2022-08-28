@@ -23,6 +23,10 @@ body {
   padding-bottom: 75px;
 }
 
+
+
+
+
 .call_to-btn {
   display: inline-block;
   padding: 15px 45px;
@@ -367,17 +371,6 @@ width: 280px;
 .our-portfolio .showed-content img {
   max-width: 290px;
 }
-
-
-
-
-
-
-
-
-
-
-
 .goal_section {
   background: url("file:///D:/project%20learning%20management/fanadesh-html/images/managegoal-test-prep-light-new.svg");
   color: #3c4852;
