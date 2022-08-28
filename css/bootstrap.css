@@ -4688,8 +4688,8 @@ input[type="button"].btn-block {
 }
 
 .card-img-top {
-  width: 30%;
-  height: 60%;
+  width: 64px;
+  height: 64px;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
   margin-top: 17px;
