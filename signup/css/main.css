@@ -79,7 +79,7 @@ html {
  * A very simple reset that sits on top of Normalize.css.
  */
 body,
-h1, h2, h3, h4, h5, h6,
+h1, h3, h4, h5, h6,
 blockquote, p, pre,
 dl, dd, ol,
 figure,
@@ -145,6 +145,7 @@ h1 {
 
 h2 {
   font-size: 30px;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -600,8 +601,20 @@ input {
   color: #08bd80;
   background: #ffffff;
   font-weight: 400;
-  margin-bottom: 40px;
+  display:inline;
 }
+
+
+.title1 {
+  font-size: 30px;
+  color: #3C4852;
+  background: #ffffff;
+  font-weight: 400;
+ display: inline;
+}
+
+
+
 
 /* ==========================================================================
    #CARD
