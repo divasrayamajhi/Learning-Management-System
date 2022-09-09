@@ -157,7 +157,9 @@ a:focus {
   position: relative;
 }
 
-
+.nav-borders .nav-link.active {
+color:08bd80;
+}
 
 .top_container::before {
   content: "";
